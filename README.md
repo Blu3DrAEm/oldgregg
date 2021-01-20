@@ -3,7 +3,7 @@ Comfortably use social media in an isolated environment on a Raspberry Pi, virtu
 
 # Quick Setup:
 
-1. Download vpnbook openvpn server certificate bundle www.vpnbook.com, extract contents of download, rename folder 'vpnbook/'
+1. Download vpnbook openvpn server certificate bundle www.vpnbook.com, extract contents to /home/pi, rename folder 'vpnbook/'
 2. git clone https://github.com/Blu3DrAEm/oldgregg.git
 3. cd oldgregg/
 4. sudo chmod +x requirements.sh
