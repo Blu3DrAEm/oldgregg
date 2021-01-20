@@ -3,7 +3,9 @@ Comfortably use social media in an isolated environment on a Raspberry Pi, virtu
 
 # Quick Setup:
 
-1. Download vpnbook openvpn server certificate bundle www.vpnbook.com, extract contents to /home/pi, rename folder 'vpnbook/'
+1. Download vpnbook openvpn server certificate bundle: https://www.vpnbook.com/free-openvpn-account/VPNBook.com-OpenVPN-US1.zip
+Extract the files and rename the directory to 'vpnbook/'
+(You can choose whichever server certificate bundle you'd like but you will need to edit the 'openvpn.sh' script file to point to the correct certificate if you choose something different)
 
 The following steps must be completed in a terminal:
 
@@ -26,7 +28,10 @@ The following steps must be completed in a terminal:
 
 To verify you're browsing in an isolated environment navigate to DuckDuckGo.com and search "what is my ip address", you will see your IP address shows up in a different location using OpenVPN. Next, navigate to www.dnsleakcheck.com and run the standard test. You will see your ISP is OpenDNS, which has been changed using our "/etc/resolv.conf" file.
 
-NOTE: This guide assumes your raspberry pi is using the default username: 'Pi' and default password: 'Raspberry'.
-If you change your username, password, or path to the scripts you will need to edit the 'openvpn.sh' and 'vpn.sh' script with the correct information.
+# NOTE:
+This guide assumes your raspberry pi is using the default username: 'Pi', the default password: 'raspberry', and that you've renamed the vpnbook certificate bundle directory to 'vpnbook/'. 
+If you change the admin password and receive an error running "./vpn.sh", uncomment line 5 & 6 in 'vpn.sh' and replace 'raspberry\r' with '<your password>\r' (note: the '\r' must be included after your password for the expect script to work properly)
+If you change the name or location of the 'vpnbook/' directory you will need to edit the 'openvpn.sh' script to include the correct path.
 
-NOTE: Instagram does not allow you to post or interact with stickers from the web browser at all, even in developer mode, which is the recommended method on several websites. To get around this I am looking into setting up an account on hootsuite.com, which I believe will let me post to Instagram. However, I have not done this yet because I post so rarely. I’ll update this post when I know if it works.
+# NOTE:
+Instagram does not allow you to post or interact with stickers from the web browser at all, even in developer mode, which is the recommended method on several websites. To get around this I am looking into setting up an account on hootsuite.com, which I believe will let me post to Instagram. However, I have not done this yet because I post so rarely. I’ll update this post when I know if it works.
