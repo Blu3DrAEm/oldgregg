@@ -30,7 +30,7 @@ To verify you're browsing in an isolated environment navigate to DuckDuckGo.com 
 
 # NOTE:
 This guide assumes your raspberry pi is using the default username: 'Pi', the default password: 'raspberry', and that you've renamed the vpnbook certificate bundle directory to 'vpnbook/'. 
-If you change the admin password and receive an error running "./vpn.sh", uncomment line 5 & 6 in 'vpn.sh' and replace 'raspberry\r' with '<your password>\r' (note: the '\r' must be included after your password for the expect script to work properly)
+If you change the admin password and receive an error running "./vpn.sh", uncomment line 5 & 6 in 'vpn.sh' and replace 'raspberry\r' with 'yourpassword\r' (note: the '\r' must be included after your password for the expect script to work properly)
 If you change the name or location of the 'vpnbook/' directory you will need to edit the 'openvpn.sh' script to include the correct path.
 
 # NOTE:
