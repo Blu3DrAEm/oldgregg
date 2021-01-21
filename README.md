@@ -5,17 +5,17 @@ Comfortably use social media in an isolated environment on a Raspberry Pi, virtu
 
 1. Download vpnbook openvpn server certificate bundle: https://www.vpnbook.com/free-openvpn-account/VPNBook.com-OpenVPN-US1.zip
 Extract the files and rename the directory to 'vpnbook/'
+
 (You can choose whichever server certificate bundle you'd like from www.vpnbook.com but you will need to edit the 'openvpn.sh' script file to point to the correct certificate if you choose something different)
 
 The following steps must be completed in a terminal:
-
 2. git clone https://github.com/Blu3DrAEm/oldgregg.git
 3. cd oldgregg/
 4. sudo chmod +x requirements.sh
 5. ./requirements.sh
 6. cd
 7. ./vpn
-8. Wait until "Initialization Sequence Complete" message appears, leave terminal window open, and browse the web.
+8. Wait until "Initialization Sequence Complete" message appears, leave the terminal window open, and surf your favorite social media sites using the built in web browser.
 
 # Enable VNC (optional)
 
