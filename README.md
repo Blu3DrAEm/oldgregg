@@ -17,6 +17,7 @@ The following steps must be completed in a terminal:
 7. ./vpn
 8. Wait until "Initialization Sequence Complete" message appears, leave the terminal window open, and surf your favorite social media sites using the built in web browser.
 
+
 # Enable VNC (optional)
 
 1. Open terminal and enter "sudo raspi-config"
