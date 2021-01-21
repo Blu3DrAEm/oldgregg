@@ -25,10 +25,10 @@ Comfortably use social media in an isolated environment on a Raspberry Pi, virtu
 
 To verify you're browsing in an isolated environment navigate to DuckDuckGo.com and search "what is my ip address", you will see your IP address shows up in a different location using OpenVPN. Next, navigate to www.dnsleakcheck.com and run the standard test. You will see your ISP is OpenDNS, which has been changed using our "/etc/resolv.conf" file.
 
-# NOTE:
+# Please Note:
 This guide assumes your raspberry pi is using the default username: 'pi', the default password: 'raspberry', and that you've renamed the vpnbook certificate bundle directory to '/home/pi/vpnbook/'. 
 If you change the admin password and receive an error running "./vpn.sh", uncomment line 5 & 6 in 'vpn.sh' and replace 'raspberry\r' with 'yourpassword\r' (note: the '\r' must be included after your password for the expect script to work properly)
 If you change the name or location of the 'vpnbook/' directory you will need to edit the 'openvpn.sh' script to include the correct path.
 
-# NOTE:
+# Please Note:
 Instagram does not allow you to post or interact with stickers from the web browser at all, even in developer mode, which is the recommended method on several websites. To get around this I am looking into setting up an account on hootsuite.com, which I believe will let me post to Instagram. However, I have not done this yet because I post so rarely. I’ll update this post when I know if it works.
