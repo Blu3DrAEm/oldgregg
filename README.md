@@ -16,7 +16,12 @@ Comfortably use social media in an isolated environment on a Raspberry Pi, virtu
 
 # How to post to Instagram
 
-Coming soon!
+1. Open www.instagram.com
+2. Click browser settings
+3. Scroll down to “More Tools” and click on “Developer Tools”
+4. Click the “Toggle Device Toolbar” mobile button
+5. Choose which mobile device you want on the drop down menu and refresh the page
+6. Upload to Instagram by clicking the “+” button
 
 # Enable VNC (optional)
 
