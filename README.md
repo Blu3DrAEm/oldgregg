@@ -2,6 +2,8 @@
 Comfortably use social media in an isolated environment on a Raspberry Pi, virtual machine, or computer of your choosing.
 
 # Initial Setup:
+How-To Install OldGregg Video!
+https://youtu.be/F7uRaWrX-90
 
 1. Open a new terminal
 2. git clone https://github.com/Blu3DrAEm/oldgregg.git
